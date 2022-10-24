@@ -1,0 +1,13 @@
+.sections{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+ 
+
+}
+.sections h3{
+  border-bottom: 1px solid rgb(187, 187, 187);
+  padding: 0 1rem 0 1rem;
+}

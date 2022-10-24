@@ -1,0 +1,19 @@
+footer {
+ 
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  position:fixed;
+  bottom: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info span {
+  padding: 1rem 2.5rem 0 2.5rem;
+}

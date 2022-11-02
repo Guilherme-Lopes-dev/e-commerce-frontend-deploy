@@ -8,12 +8,12 @@ import Loading from '../components/Loading';
 const Home = () => {
 
   const { data, error, isLoading } = useGetAllProductsQuery();
-  console.log(isLoading)
+  
   return (
     <div className="home-container">
       <Sections />
       <h2 className='arrivals'>Produtos em destaque</h2>
-      {isLoading ? ( <Loading/>) : (<NewProducts />)}
+      {isLoading ?  <Loading/> : <NewProducts />}
     </div>
 
   )

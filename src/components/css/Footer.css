@@ -17,3 +17,12 @@ footer {
 .info span {
   padding: 1rem 2.5rem 0 2.5rem;
 }
+
+@media (max-width: 480px) {
+  .info span{
+    padding: 0rem 2.5rem 0 2.5rem;
+    font-size: 0.7rem;
+  }
+
+ 
+}

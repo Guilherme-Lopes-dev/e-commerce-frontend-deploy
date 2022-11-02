@@ -9,9 +9,7 @@ API feita em Express.
 limpar todos os itens, aumentar a quantia de itens dentro do carrinho e selecionar produtos conforme seu tipo
 
 # Imagens
-![Design Mobile](./src//screenshots/iPhoneX.jpg)
-
-![Design Mobile](./src//screenshots/iPhoneX2.jpg)
+![Design Mobile](./src//screenshots/iPhoneX.jpg) ![Design Mobile](./src//screenshots/iPhoneX2.jpg)
 
 ![Design Tablet](./src//screenshots/Nexus10.jpg)
 

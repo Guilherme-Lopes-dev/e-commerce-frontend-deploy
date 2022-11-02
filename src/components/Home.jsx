@@ -8,7 +8,7 @@ import Sections from './Sections'
 
 const Home = () => {
 
-  const { data, error, isLoading } = useGetAllProductsQuery();
+  const { data = [], error, isLoading } = useGetAllProductsQuery();
 
   const dispatch = useDispatch()
 
@@ -16,10 +16,10 @@ const Home = () => {
 
   const handleAddToCart = (product) => {
     dispatch(addToCart(product))
-    navigate('/cart')
+    
   }
   
-  const filtered = (data?.filter(({ id }) => id % 2))
+  const filtered = (data.filter(({ id }) => id % 2))
 
 
   return (

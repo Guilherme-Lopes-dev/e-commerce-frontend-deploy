@@ -13,8 +13,7 @@ export const productsFetch = createAsyncThunk(
     async () => {
       try {
         const response = await axios.get(
-          APIURL,
-          console.log(APIURL)
+          APIURL
         );
         return response?.data;
       } catch (error) {

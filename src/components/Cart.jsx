@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './css/Cart.css'
-import { useSelector} from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import EmptyCart from './EmptyCart'
 import FilledCart from './FilledCart'
+import { addToCart, decreaseCart, removeFromCart, clearCart, getTotals, checkout } from '../features/cartSlice'
+
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart)
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(getTotals())
+  }, [cart])
 
   return (
     <div className='cart-container'>

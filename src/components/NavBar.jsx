@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './css/NavBar.css'
 import Logo from '../logo/Logo.png'
-import { useGetAllProductsQuery } from '../features/productsApi'
-import { filter } from '../features/cartSlice'
 import { useSelector, useDispatch } from 'react-redux'
 
 

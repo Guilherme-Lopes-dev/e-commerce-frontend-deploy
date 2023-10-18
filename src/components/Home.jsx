@@ -8,7 +8,6 @@ import Loading from '../components/Loading';
 const Home = () => {
 
   const { data, error, isLoading } = useGetAllProductsQuery();
-  
   return (
     <div className="home-container">
       <Sections />
